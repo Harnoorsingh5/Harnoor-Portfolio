@@ -9,12 +9,14 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://harnoor-portfolio.herokuapp.com/",
+  "homepage": "http://harnoorsingh5.github.io/harnoor-portfolio",
   "eslintConfig": {
     "extends": "react-app"
   },
