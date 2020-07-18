@@ -1,5 +1,5 @@
 {
-  "name": "resume",
+  "name": "harnoor-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
+  "homepage": "https://harnoor-portfolio.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
   },
